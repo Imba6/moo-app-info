@@ -18,19 +18,23 @@
   <nav aria-label="Мова / Language"><a href="#uk">Українська</a> · <a href="#english">English</a></nav>
   <article id="uk" lang="uk">
   <h1>Політика приватності Moo</h1>
-  <p>Оновлено 31 жовтня 2026 року. Цей текст описує нативну бета-версію Moo для iPhone та iPad.</p>
+  <p>Оновлено 31 жовтня 2026 року. Цей текст описує нативну бета-версію Moo для iPhone та iPad, включно з редизайном 0.4.0.</p>
 
   <h2>Голос і камера</h2>
-  <p>Moo обробляє голос на пристрої, щоб визначати його висоту й керувати формою корови. Мікрофон потрібен для гри. Зображення фронтальної камери використовується як фон і може входити до відео забігу. Камера необов’язкова: після відмови в доступі можна обрати «Грати з фоном».</p>
+  <p>Moo обробляє голос на пристрої, щоб визначати висоту й керувати твариною. Мікрофон потрібен для гри та калібрування. У версії 0.4.0 камера вимкнена за замовчуванням. За вашим вибором режими «Камера» та «Маска тварини» показують і можуть записувати обличчя. «Віртуальний аватар» показує та записує лише 3D-персонажа: сирі кадри обличчя не входять у відео. Відмова в дозволі на камеру не блокує гру.</p>
   <p>Moo не має облікових записів, входу, реклами, вбудованих сервісів аналітики чи власного сервера. Результат забігу показується на пристрої. Застосунок не завантажує голос і відео автоматично до розробника або інших сервісів.</p>
 
+  <h2>Міміка, профілі та покупки</h2>
+  <p>ARKit або Vision обчислюють положення голови, рота та очей локально для анімації маски й аватара. Кадри та коефіцієнти міміки не передаються розробнику, не використовуються для ідентифікації й не зберігаються як окремі дані. У режимі аватара без підтримки відстеження обличчя рухом рота керує лише звук.</p>
+  <p>Локальні профілі містять обране вами ім’я, калібрування, налаштування, поінти, відкриті тварини, історію раундів та улюблені сіди. Це не мережеві акаунти. Покупки й відновлення обробляє Apple через StoreKit; застосунок перевіряє право доступу. Розробник не отримує платіжні реквізити. На дані Apple поширюється її політика приватності.</p>
+
   <h2>Запис, Фото й поширення</h2>
-  <p>Запис відео увімкнений за замовчуванням. Його можна вимкнути в «Налаштування» → «Записувати відео». Запис містить ігрову сцену, звук та, якщо доступна, камеру.</p>
+  <p>Запис відео увімкнений за замовчуванням. Його можна вимкнути в «Налаштування» → «Записувати відео». Запис містить ігрову сцену, звук і лише обраний режим присутності.</p>
   <p>Відео спершу зберігається локально в кеші Moo. Лише після натискання «Зберегти відео» застосунок просить дозвіл додати кліп у Фото; доступ до читання вашої фототеки він не запитує. «Поділитися» відкриває системне меню, де ви самі обираєте одержувача або сервіс.</p>
   <p>Копії у Фото можуть синхронізуватися через iCloud відповідно до ваших налаштувань. На копії, надіслані в інші застосунки, поширюються правила вибраного сервісу. Код виклику містить лише seed, тривалість і версію формату рівня.</p>
 
   <h2>Зберігання та видалення</h2>
-  <p>Діапазон голосу, тривалість гри, налаштування музики й запису зберігаються на пристрої. Завершені кліпи залишаються в кеші без установленого строку видалення. Новий забіг не видаляє попередні файли; окремої кнопки очищення кешу в цій бета-версії немає. Система може очистити кеш, тому важливі кліпи варто зберігати у Фото.</p>
+  <p>Профілі, діапазон голосу, калібрування, прогрес, рекорди, тривалість гри та налаштування зберігаються на пристрої. Завершені кліпи залишаються в кеші без установленого строку видалення. Новий забіг не видаляє попередні файли; окремої кнопки очищення кешу в цій бета-версії немає. Система може очистити кеш, тому важливі кліпи варто зберігати у Фото.</p>
   <p>Після помилки або скасування запису Moo намагається видалити незавершений файл. Видалення застосунку, на відміну від його вивантаження, прибирає його локальні дані. Копії у Фото та інших сервісах потрібно видаляти окремо в місці збереження.</p>
 
   <h2>Дозволи</h2>
@@ -48,19 +52,23 @@
   <hr>
   <article id="english" lang="en">
   <h1>Moo Privacy Policy</h1>
-  <p>Updated October 31, 2026. This policy describes the native Moo beta for iPhone and iPad.</p>
+  <p>Updated October 31, 2026. This policy describes the native Moo beta for iPhone and iPad, including the 0.4.0 redesign.</p>
 
   <h2>Voice and camera</h2>
-  <p>Moo processes your voice on your device to detect pitch and control the cow’s shape. The microphone is required for gameplay. The front camera supplies the background and may be included in a gameplay recording. Camera access is optional: if you decline it, choose “Грати з фоном” (Play with background).</p>
+  <p>Moo processes voice on your device to detect pitch and control an animal. The microphone is required for play and calibration. In 0.4.0 the camera is off by default. If you select Camera or Animal Mask, your face is displayed and may be recorded. Virtual Avatar displays and records only a 3D character; raw face images are excluded from its video. Declining camera permission does not block play.</p>
   <p>Moo has no accounts, sign-in, advertising, embedded analytics services, or backend. Run results are displayed on your device. The app does not automatically upload voice or video to the developer or other services.</p>
 
+  <h2>Face tracking, profiles, and purchases</h2>
+  <p>ARKit or Vision calculates head, mouth, and eye positions locally to animate a mask or avatar. Camera frames and expression coefficients are not sent to the developer, used for identification, or retained as separate data. Without face-tracking support, the avatar mouth responds to audio only.</p>
+  <p>Local profiles contain your chosen name, calibration, settings, points, unlocked animals, run history, and favorite seeds. They are not online accounts. Apple processes purchases and restoration through StoreKit; Moo verifies access entitlements. The developer does not receive payment details. Apple handles its data under its own privacy policy.</p>
+
   <h2>Recording, Photos, and sharing</h2>
-  <p>Video recording is enabled by default. Turn it off under “Налаштування” (Settings) using “Записувати відео” (Record video). Recordings include the game scene, audio, and camera when available.</p>
+  <p>Video recording is enabled by default. Turn it off under “Налаштування” (Settings) using “Записувати відео” (Record video). Recordings include the game scene, audio, and only your selected presence mode.</p>
   <p>Videos are initially stored in Moo’s local cache. Only tapping “Зберегти відео” (Save video) requests permission to add a clip to Photos; Moo does not request access to read your photo library. “Поділитися” (Share) opens the system share sheet, where you select the recipient or service.</p>
   <p>Copies saved to Photos may sync through iCloud according to your settings. Copies shared with another app are handled under that service’s rules. A challenge code contains only the level seed, duration, and format version.</p>
 
   <h2>Retention and deletion</h2>
-  <p>Voice range, run duration, music, and recording preferences are stored on your device. Completed clips stay in the app’s cache without a fixed deletion period. Starting a new run does not delete previous files, and this beta has no separate cache-clear button. The operating system may purge cached files, so save important clips to Photos.</p>
+  <p>Profiles, voice range, calibration, progress, records, run duration, and preferences are stored on your device. Completed clips stay in the app’s cache without a fixed deletion period. Starting a new run does not delete previous files, and this beta has no separate cache-clear button. The operating system may purge cached files, so save important clips to Photos.</p>
   <p>After a recording error or cancellation, Moo attempts to remove the unfinished file. Deleting the app, rather than offloading it, removes its local data. Copies in Photos or other services must be deleted separately at their destination.</p>
 
   <h2>Permissions</h2>
