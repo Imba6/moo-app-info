@@ -3,84 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Приватність — Moo</title>
+  <meta name="description" content="Політика приватності Moo для iPhone та iPad. Moo privacy policy.">
+  <title>Приватність / Privacy — Moo</title>
   <style>
     :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
     body { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
     h1, h2 { line-height: 1.2; }
     h2 { margin-top: 2rem; }
-    a { color: #7952b3; }
+    a { color: #7952b3; overflow-wrap: anywhere; }
+    hr { border: 0; border-top: 1px solid #8885; margin: 3rem 0; }
     @media (prefers-color-scheme: dark) { a { color: #c4a6ed; } }
   </style>
 </head>
 <body>
 <main>
-  <nav aria-label="Мова / Language"><a href="#uk">Українська</a> · <a href="#english">English</a></nav>
+  <nav aria-label="Мова / Language"><a href="index.html">Moo — підтримка / support</a> · <a href="#uk">Українська</a> · <a href="#english">English</a></nav>
   <article id="uk" lang="uk">
-  <h1>Політика приватності Moo</h1>
-  <p>Оновлено 31 жовтня 2026 року. Цей текст описує нативну бета-версію Moo для iPhone та iPad, включно з редизайном 0.4.0.</p>
-
-  <h2>Голос і камера</h2>
-  <p>Moo обробляє голос на пристрої, щоб визначати висоту й керувати твариною. Мікрофон потрібен для гри та калібрування. У версії 0.4.0 камера вимкнена за замовчуванням. За вашим вибором режими «Камера» та «Маска тварини» показують і можуть записувати обличчя. «Віртуальний аватар» показує та записує лише 3D-персонажа: сирі кадри обличчя не входять у відео. Відмова в дозволі на камеру не блокує гру.</p>
-  <p>Moo не має облікових записів, входу, реклами, вбудованих сервісів аналітики чи власного сервера. Результат забігу показується на пристрої. Застосунок не завантажує голос і відео автоматично до розробника або інших сервісів.</p>
-
-  <h2>Міміка, профілі та покупки</h2>
-  <p>ARKit або Vision обчислюють положення голови, рота та очей локально для анімації маски й аватара. Кадри та коефіцієнти міміки не передаються розробнику, не використовуються для ідентифікації й не зберігаються як окремі дані. У режимі аватара без підтримки відстеження обличчя рухом рота керує лише звук.</p>
-  <p>Локальні профілі містять обране вами ім’я, калібрування, налаштування, поінти, відкриті тварини, історію раундів та улюблені сіди. Це не мережеві акаунти. Покупки й відновлення обробляє Apple через StoreKit; застосунок перевіряє право доступу. Розробник не отримує платіжні реквізити. На дані Apple поширюється її політика приватності.</p>
-
-  <h2>Запис, Фото й поширення</h2>
-  <p>Запис відео увімкнений за замовчуванням. Його можна вимкнути в «Налаштування» → «Записувати відео». Запис містить ігрову сцену, звук і лише обраний режим присутності.</p>
-  <p>Відео спершу зберігається локально в кеші Moo. Лише після натискання «Зберегти відео» застосунок просить дозвіл додати кліп у Фото; доступ до читання вашої фототеки він не запитує. «Поділитися» відкриває системне меню, де ви самі обираєте одержувача або сервіс.</p>
-  <p>Копії у Фото можуть синхронізуватися через iCloud відповідно до ваших налаштувань. На копії, надіслані в інші застосунки, поширюються правила вибраного сервісу. Код виклику містить лише seed, тривалість і версію формату рівня.</p>
-
-  <h2>Зберігання та видалення</h2>
-  <p>Профілі, діапазон голосу, калібрування, прогрес, рекорди, тривалість гри та налаштування зберігаються на пристрої. Завершені кліпи залишаються в кеші без установленого строку видалення. Новий забіг не видаляє попередні файли; окремої кнопки очищення кешу в цій бета-версії немає. Система може очистити кеш, тому важливі кліпи варто зберігати у Фото.</p>
-  <p>Після помилки або скасування запису Moo намагається видалити незавершений файл. Видалення застосунку, на відміну від його вивантаження, прибирає його локальні дані. Копії у Фото та інших сервісах потрібно видаляти окремо в місці збереження.</p>
-
-  <h2>Дозволи</h2>
-  <p>Доступ до мікрофона, камери й додавання у Фото можна змінити в системних налаштуваннях пристрою для Moo. Без мікрофона голосове керування недоступне; без камери можна грати з фоном, а без дозволу на Фото — скористатися системним меню поширення.</p>
-
-  <h2>Тестування через TestFlight</h2>
-  <p>TestFlight — окремий сервіс Apple. Apple автоматично збирає журнали збоїв і відомості про використання бета-версії та передає їх розробнику. Надіслані вами коментарі й знімки екрана також передаються розробнику; залежно від способу запрошення та відгуку вони можуть містити ім’я й електронну адресу. Ці дані призначені для перевірки та поліпшення Moo.</p>
-  <p>Apple описує обробку й строки зберігання цих даних на сторінці <a href="https://www.apple.com/legal/privacy/data/en/test-flight/">TestFlight і приватність</a>. Ви можете припинити тестування на сторінці Moo в TestFlight. Це не видаляє вже надіслані відгуки автоматично.</p>
-  <p>Технічні звіти та відгуки в TestFlight зберігаються за правилами Apple. Moo не має окремої бази цих даних. Листування з підтримкою використовується для відповіді та розв’язання вашого запиту; можна звернутися із запитом на доступ або видалення.</p>
-
-  <h2>Контакт</h2>
-  <p>Повідомити про проблему можна через сторінку Moo в TestFlight. Запитання щодо приватності та запити на доступ або видалення даних надсилайте розробнику: <a href="mailto:imbawko@gmail.com">imbawko@gmail.com</a>.</p>
+    <h1>Політика приватності Moo</h1>
+    <p>Оновлено 3 листопада 2026 року. Ця політика описує Moo 1.0 для iPhone та iPad.</p>
+    <h2>Голос і камера</h2>
+    <p>Moo обробляє голос на пристрої, щоб визначати його висоту, калібрувати діапазон і керувати твариною. Мікрофон потрібен для голосового керування. Калібрування та ручні налаштування діапазону зберігаються локально.</p>
+    <p>Камера необов’язкова й спочатку вимкнена. Можна грати з фоном без камери. У режимах камери й маски зображення з фронтальної камери показується в грі та входить до кліпу, якщо запис увімкнений. У режимі аватара камера керує віртуальною твариною; необроблене зображення обличчя не показується й не записується.</p>
+    <p>Маски та аватари можуть використовувати ARKit або Vision для визначення положення голови, рота й очей. Ці дані обробляються на пристрої лише для анімації. Moo не використовує їх для ідентифікації людини, не зберігає окремо дані відстеження обличчя та не передає їх розробнику або третім сторонам. Якщо запис увімкнений, кліп містить видимий результат анімації.</p>
+    <p>Moo не має облікових записів, входу, реклами, вбудованих сторонніх сервісів аналітики чи власного сервера для даних гравця. Застосунок не завантажує голос, кадри камери, дані відстеження обличчя або калібрування автоматично.</p>
+    <h2>Запис, Фото й поширення</h2>
+    <p>Запис відео необов’язковий і вимкнений для нового користувача. Його можна ввімкнути перед забігом перемикачем «Записувати відео» або змінити в налаштуваннях. Moo зберігає зроблений вибір. Індикатор REC показує активний запис; під час паузи запис призупиняється.</p>
+    <p>Кліп містить ігрову сцену, звук мікрофона й гри та вигляд обраного режиму камери, маски або аватара. Спочатку він зберігається в локальному кеші Moo. Застосунок не завантажує кліпи автоматично.</p>
+    <p>Лише після вибору збереження відео Moo просить дозвіл додати кліп у Фото; доступ до читання фототеки він не запитує. Поширення відкриває системне меню, де ви самі обираєте одержувача або сервіс. Копії у Фото можуть синхронізуватися через iCloud відповідно до ваших налаштувань. Копії, надіслані в інші застосунки, обробляються за правилами вибраного сервісу.</p>
+    <p>Посилання рівня містить його код (seed), тривалість, версію формату та складність. Текст поширення після забігу може також містити результат. Він не містить голосу, відео, даних обличчя або калібрування. Відкриття публічної сторінки рівня, підтримки чи цієї політики використовує звичайний вебзапит; хостинг GitHub Pages може обробляти технічні дані запиту за <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">політикою приватності GitHub</a>.</p>
+    <h2>Локальний прогрес і покупки</h2>
+    <p>На пристрої зберігаються єдиний прогрес гри, результати, останні й улюблені рівні, вибрана тварина, відкриті нагороди, налаштування голосу, мови, звуку, камери, запису, тривалості та складності. Moo не синхронізує їх через власний обліковий запис або сервер.</p>
+    <p>Необов’язкові вбудовані покупки обробляє Apple через StoreKit. Moo запитує в Apple інформацію про товари й перевіряє права на придбані набори, щоб відкривати відповідний вміст. Відновлення покупок також здійснюється через Apple. Moo не отримує номер платіжної картки чи пароль Apple Account. Обробку платежів і даних Apple описано в <a href="https://www.apple.com/legal/privacy/">політиці приватності Apple</a>.</p>
+    <h2>Зберігання та видалення</h2>
+    <p>Завершені кліпи залишаються в кеші без встановленого строку автоматичного видалення. Новий забіг не видаляє попередні кліпи; окремої кнопки очищення кешу в цій версії немає. Система може очистити кеш, тому кліпи, які хочете зберегти, експортуйте у Фото або інше місце.</p>
+    <p>Після помилки або скасування запису Moo намагається видалити незавершений файл. Видалення застосунку, на відміну від його вивантаження, прибирає його локальні дані. Копії у Фото, резервних копіях або інших сервісах потрібно видаляти окремо в місці збереження. Історія покупок Apple не видаляється разом із застосунком; нею керує Apple.</p>
+    <h2>Дозволи</h2>
+    <p>Доступ до мікрофона, камери й додавання у Фото можна змінити в системних налаштуваннях пристрою для Moo. Без мікрофона голосове керування недоступне; без камери можна грати з фоном. Без дозволу на Фото залишається системне меню поширення.</p>
+    <h2>Підтримка й тестування</h2>
+    <p>Якщо ви пишете на <a href="mailto:imbawko@gmail.com">imbawko@gmail.com</a>, розробник отримує вашу адресу, текст і вкладення, які ви надсилаєте. Листування використовується для відповіді та розв’язання запиту. На цю ж адресу можна надіслати питання про приватність або запит на доступ чи видалення інформації, яку ви передали підтримці.</p>
+    <p>Якщо ви окремо тестуєте бета-версію через TestFlight, Apple може передавати розробнику відомості про тестування, звіти про збої та відгуки відповідно до <a href="https://www.apple.com/legal/privacy/data/en/test-flight/">TestFlight і приватність</a>. Цей розділ стосується саме тестування через TestFlight; Moo не додає власну аналітику до гри.</p>
   </article>
-
   <hr>
   <article id="english" lang="en">
-  <h1>Moo Privacy Policy</h1>
-  <p>Updated October 31, 2026. This policy describes the native Moo beta for iPhone and iPad, including the 0.4.0 redesign.</p>
-
-  <h2>Voice and camera</h2>
-  <p>Moo processes voice on your device to detect pitch and control an animal. The microphone is required for play and calibration. In 0.4.0 the camera is off by default. If you select Camera or Animal Mask, your face is displayed and may be recorded. Virtual Avatar displays and records only a 3D character; raw face images are excluded from its video. Declining camera permission does not block play.</p>
-  <p>Moo has no accounts, sign-in, advertising, embedded analytics services, or backend. Run results are displayed on your device. The app does not automatically upload voice or video to the developer or other services.</p>
-
-  <h2>Face tracking, profiles, and purchases</h2>
-  <p>ARKit or Vision calculates head, mouth, and eye positions locally to animate a mask or avatar. Camera frames and expression coefficients are not sent to the developer, used for identification, or retained as separate data. Without face-tracking support, the avatar mouth responds to audio only.</p>
-  <p>Local profiles contain your chosen name, calibration, settings, points, unlocked animals, run history, and favorite seeds. They are not online accounts. Apple processes purchases and restoration through StoreKit; Moo verifies access entitlements. The developer does not receive payment details. Apple handles its data under its own privacy policy.</p>
-
-  <h2>Recording, Photos, and sharing</h2>
-  <p>Video recording is enabled by default. Turn it off under “Налаштування” (Settings) using “Записувати відео” (Record video). Recordings include the game scene, audio, and only your selected presence mode.</p>
-  <p>Videos are initially stored in Moo’s local cache. Only tapping “Зберегти відео” (Save video) requests permission to add a clip to Photos; Moo does not request access to read your photo library. “Поділитися” (Share) opens the system share sheet, where you select the recipient or service.</p>
-  <p>Copies saved to Photos may sync through iCloud according to your settings. Copies shared with another app are handled under that service’s rules. A challenge code contains only the level seed, duration, and format version.</p>
-
-  <h2>Retention and deletion</h2>
-  <p>Profiles, voice range, calibration, progress, records, run duration, and preferences are stored on your device. Completed clips stay in the app’s cache without a fixed deletion period. Starting a new run does not delete previous files, and this beta has no separate cache-clear button. The operating system may purge cached files, so save important clips to Photos.</p>
-  <p>After a recording error or cancellation, Moo attempts to remove the unfinished file. Deleting the app, rather than offloading it, removes its local data. Copies in Photos or other services must be deleted separately at their destination.</p>
-
-  <h2>Permissions</h2>
-  <p>Change microphone, camera, and Photos add-only permissions in your device’s system settings for Moo. Voice control requires the microphone. Without the camera, you can play with a background; without Photos permission, you can still use the system share sheet.</p>
-
-  <h2>Testing with TestFlight</h2>
-  <p>TestFlight is a separate Apple service. Apple automatically collects crash logs and beta usage information and shares them with the developer. Comments and screenshots you submit are also shared with the developer; depending on the invitation and feedback method, this information may include your name and email address. This information is used to test and improve Moo.</p>
-  <p>Apple describes its processing and retention in <a href="https://www.apple.com/legal/privacy/data/en/test-flight/">TestFlight &amp; Privacy</a>. You can stop testing from Moo’s page in TestFlight; this does not automatically delete previously submitted feedback.</p>
-  <p>Reports and feedback in TestFlight are retained under Apple’s rules. Moo has no separate database of this information. Support correspondence is used to answer and resolve your request; you can contact us to request access or deletion.</p>
-
-  <h2>Contact</h2>
-  <p>Report a beta issue through Moo’s page in TestFlight. Send privacy questions or requests to access or delete data to the developer at <a href="mailto:imbawko@gmail.com">imbawko@gmail.com</a>.</p>
+    <h1>Moo Privacy Policy</h1>
+    <p>Updated November 3, 2026. This policy describes Moo 1.0 for iPhone and iPad.</p>
+    <h2>Voice and camera</h2>
+    <p>Moo processes your voice on your device to detect pitch, calibrate your range, and control an animal. Voice control requires the microphone. Calibration and manual voice-range settings are stored locally.</p>
+    <p>The camera is optional and initially off. You can play with a background without the camera. Camera and mask modes display the front-camera view and include it in a clip when recording is enabled. In avatar mode, the camera drives a virtual animal; raw images of your face are not shown or recorded.</p>
+    <p>Masks and avatars may use ARKit or Vision to determine head, mouth, and eye movement. This information is processed on the device only to animate the character. Moo does not use it to identify a person, store face-tracking data separately, or send it to the developer or third parties. If recording is enabled, the clip includes the visible animation.</p>
+    <p>Moo has no accounts, sign-in, advertising, embedded third-party analytics services, or backend for player data. The app does not automatically upload voice, camera frames, face-tracking data, or calibration.</p>
+    <h2>Recording, Photos, and sharing</h2>
+    <p>Video recording is optional and off for a new user. Enable “Record video” before a run or change it in Settings. Moo remembers your choice. A REC indicator shows active recording; recording pauses when gameplay is paused.</p>
+    <p>A clip contains the game scene, microphone and game audio, and the visible result of the selected camera, mask, or avatar mode. It is initially saved in Moo’s local cache. Moo does not automatically upload clips.</p>
+    <p>Only choosing to save a video requests permission to add it to Photos; Moo does not request access to read your photo library. Sharing opens the system share sheet, where you choose the recipient or service. Copies saved to Photos may sync through iCloud according to your settings. Copies sent to another app are handled under that service’s rules.</p>
+    <p>A level link contains its code (seed), duration, format version, and difficulty. The share text after a run may also contain your score. It does not contain voice, video, face data, or calibration. Opening a public level page, support page, or this policy makes a normal web request; the GitHub Pages host may process technical request information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.</p>
+    <h2>Local progress and purchases</h2>
+    <p>The device stores one set of game progress, results, recent and favorite levels, the selected animal, earned unlocks, and preferences for voice, language, sound, camera, recording, duration, and difficulty. Moo does not sync these through a Moo account or backend.</p>
+    <p>Optional in-app purchases are handled by Apple through StoreKit. Moo requests product information from Apple and checks purchase entitlements to unlock the relevant content. Restoring purchases also uses Apple’s services. Moo does not receive your payment card number or Apple Account password. Apple explains its payment and data processing in the <a href="https://www.apple.com/legal/privacy/">Apple privacy policy</a>.</p>
+    <h2>Retention and deletion</h2>
+    <p>Completed clips stay in the cache without a fixed automatic deletion period. A new run does not delete earlier clips, and this version has no separate cache-clear button. The operating system may purge cached files, so export clips you want to keep to Photos or another destination.</p>
+    <p>After a recording error or cancellation, Moo attempts to remove the unfinished file. Deleting the app, rather than offloading it, removes its local data. Copies in Photos, backups, or other services must be deleted separately where they are stored. Deleting Moo does not delete Apple’s purchase history, which Apple manages.</p>
+    <h2>Permissions</h2>
+    <p>Change microphone, camera, and Photos add-only permissions in your device’s system settings for Moo. Voice control requires the microphone. Without the camera, you can play with a background. Without Photos permission, you can still use the system share sheet.</p>
+    <h2>Support and testing</h2>
+    <p>If you email <a href="mailto:imbawko@gmail.com">imbawko@gmail.com</a>, the developer receives your address, message, and attachments you choose to send. Correspondence is used to answer and resolve your request. Use the same address for privacy questions or requests to access or delete information you sent to support.</p>
+    <p>If you separately test a beta through TestFlight, Apple may share testing information, crash reports, and feedback with the developer as described in <a href="https://www.apple.com/legal/privacy/data/en/test-flight/">TestFlight &amp; Privacy</a>. This section applies specifically to TestFlight testing; Moo does not add its own gameplay analytics.</p>
   </article>
 </main>
 </body>
